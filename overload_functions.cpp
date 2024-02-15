@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// define several functions with the same name but with different parameters
+// overloaded functions can have different number of inputs and different data types
 // save memory space
 // code readibility
 
