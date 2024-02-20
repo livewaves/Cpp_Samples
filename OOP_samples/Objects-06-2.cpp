@@ -36,7 +36,7 @@ int A::count = 0;
 
 int main()
 {
-    A a1(2.1, 2.2, 2.3);
-    A a2(4.3, 4.3, 4.5);
+    //A a1(2.1, 2.2, 2.3);
+    //A a2(4.3, 4.3, 4.5);
     cout << "Count value is : " << A::getcount() << endl;
 }
