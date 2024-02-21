@@ -2,9 +2,6 @@
 #include <iostream>
 using namespace std;
 // many derived classes from a single base class
- 
-#include <iostream>
-using namespace std;
 
 // Base class
 class Vehicle {
