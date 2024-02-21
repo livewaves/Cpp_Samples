@@ -5,9 +5,9 @@ using namespace std;
 // protected members are usable in inheritance
 // used by subclass that is inherited from the parent
 
-// I think as we used public specifier, we access only to public members of 
-// the base class. I suppose if we use private specifier, we also can
-// access to private members
+// The specifier type determines the kind of area access in child
+// if we use public specifier, the parent becomes public member of 
+// the child.
 
 // This is indeed a single inheritance
 // relationship between base and derived class is 1-1
