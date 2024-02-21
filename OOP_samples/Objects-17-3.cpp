@@ -19,7 +19,8 @@ class A
         void display();
         
 };
-
+// performing add using '+' operator between x of the current instance
+// and that of being passed as an argument 
 void A::operator+(A a)
 {
     int m = x + a.x;
