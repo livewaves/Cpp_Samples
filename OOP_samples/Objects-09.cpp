@@ -4,7 +4,7 @@ using namespace std;
 
 // protected members are usable in inheritance
 // used by subclass that is inherited from the parent
-
+ 
 // The specifier type determines the kind of area access in child
 // if we use public specifier, the parent members(including public   
 // and protected of the parent) becomes public member of the child.
