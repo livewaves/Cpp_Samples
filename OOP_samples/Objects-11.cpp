@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// Derived class is formed from multiple base classes
+
 class Shape1
 {
     protected:
