@@ -6,8 +6,9 @@ using namespace std;
 // used by subclass that is inherited from the parent
 
 // The specifier type determines the kind of area access in child
-// if we use public specifier, the parent becomes public member of 
-// the child.
+// if we use public specifier, the parent members(including public   
+// and protected of the parent) becomes public member of the child.
+
 
 // This is indeed a single inheritance
 // relationship between base and derived class is 1-1
