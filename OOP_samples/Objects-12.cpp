@@ -5,26 +5,26 @@ using namespace std;
 
 // Base class
 class Vehicle {
-public:
-    void drive() {
-        cout << "Vehicle is being driven." << endl;
-    }
+        public:
+            void drive() {
+                cout << "Vehicle is being driven." << endl;
+            }
 };
 
 // Derived class Car inheriting from Vehicle
 class Car : public Vehicle {
-public:
-    void honk() {
-        cout << "Car is honking." << endl;
-    }
+        public:
+            void honk() {
+                cout << "Car is honking." << endl;
+            }
 };
 
 // Derived class Bike inheriting from Vehicle
 class Bike : public Vehicle {
-public:
-    void ringBell() {
-        cout << "Bike is ringing bell." << endl;
-    }
+        public:
+            void ringBell() {
+                cout << "Bike is ringing bell." << endl;
+            }
 };
 
 int main() {
