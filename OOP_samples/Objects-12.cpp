@@ -3,7 +3,6 @@
 using namespace std;
 // many derived classes from a single base class
 
-// Derived class is formed from multiple base classes
 #include <iostream>
 using namespace std;
 
