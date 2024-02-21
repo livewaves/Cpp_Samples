@@ -2,6 +2,9 @@
 #include <iostream>
 using namespace std;
 
+// Function overloading allows multiple functions within the same scope 
+// (such as a class) to have the same name but with different parameter lists
+
 class calculator
 {
     public:
