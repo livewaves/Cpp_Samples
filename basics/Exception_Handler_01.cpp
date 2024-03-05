@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 // There is a correlation between throw type and the input parameter of the catch.
-// if the specific defined exception occurs, catche handles it
+// if the specific defined exception occurs, catch handles it
 float div(float var1, float var2)
 {
     if (var2 == 0)
