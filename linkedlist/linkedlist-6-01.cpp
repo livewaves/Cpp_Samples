@@ -15,7 +15,7 @@ class singly
     public:
         singly()
         {
-            // used just to avoid any garbage values    
+            // used just to avoid any garbage values; initialization    
             head = NULL;
             tail = NULL;
         }    
@@ -24,7 +24,7 @@ class singly
         Node *temp = new Node;
         temp -> data = value;
         temp -> next = NULL;
-        if (head == NULL)
+        if (head == NULL)           // if list is empty, head and tail is the new created Node
         {
             head = temp;
             tail = temp;
@@ -32,15 +32,15 @@ class singly
         } 
         else
         {
-            tail -> next = temp; //create connection
-            tail = temp;    // move forward to the latest created Node. (append)
+            tail -> next = temp;    // create connection
+            tail = temp;            // move forward to the latest created Node. (append)
         }
     }
     void display()
     {
         Node *temp = new Node;
         temp = head;
-        while(temp != NULL)
+        while(temp != NULL)         // display until the last Node since the last node points to NULL
         {
             cout << temp -> data << endl;
             temp = temp -> next;
