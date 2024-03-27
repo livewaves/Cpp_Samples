@@ -64,14 +64,14 @@ class doubly
 
         void afteranode(int key, int integer)
         {
-            Node *w = head;
-            Node *e;
+            Node *w = head;             // move on until finding the node one position before insertion position
+            Node *e;                    // one position after position insertion
             while(w -> data != key)
             {
                 w = w -> next;
             }
             e = w -> next;
-            Node *p = new Node;
+            Node *p = new Node;     
             p -> data = integer;
             w -> next = p;
             p -> prev = w;
