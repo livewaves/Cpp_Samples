@@ -19,22 +19,22 @@ class doubly
         }
         void create(int integer)
         {
-            Node *p = new Node;
-            Node *q;
+            Node *p = new Node;         // new created node
+            Node *q;                    // previous node
             p -> data = integer;
             
             if (head == NULL)
             {
                 p -> prev = NULL;
                 p -> next = NULL;
-                head = p;
-                q = p;
+                head = p;               // head is new node when DLL is empty
+                q = p;                  // prev node is p for next time
             }
             else
             {
                 p -> next = NULL;
-                p -> prev = q;
-                q -> next = p;
+                p -> prev = q;          // create a connection
+                q -> next = p;          
                 q = p; 
             }
         }
