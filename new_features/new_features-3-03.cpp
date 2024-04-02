@@ -1,4 +1,4 @@
-// lambda function with inputs and output
+// lambda function with inputs and output 
 #include <iostream>
 using namespace std;
 
