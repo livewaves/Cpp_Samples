@@ -14,8 +14,8 @@ int A()
 int main()
 {
     cout << A() << endl;
-    const int& val1 = A();
-    const int&& val2 = A();
-    int && val3 = A();
+    const int& val1 = A();        // constant lvalue reference
+    const int&& val2 = A();       // contant rvalue reference
+    int && val3 = A();            // int rvalue reference
     return 0;
 }
