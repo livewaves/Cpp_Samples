@@ -1,5 +1,5 @@
 // different types of references (const int&, const int&&,
-// and int &&) to bind to the return value of a function
+// and int &&) to bind to the return value of a function 
 #include <iostream>
 using namespace std;
 
